@@ -412,10 +412,10 @@ animation: zoomIn 9s linear infinite;
 /* Scroll container */
 .gallery-scroll{
   display: flex;
-  gap: 20px;
+  gap: 16px;
   overflow-x: auto;
-  padding: 20px;
   scroll-behavior: smooth;
+  padding: 10px;
 }
 
 .gallery-scroll::-webkit-scrollbar{
@@ -424,8 +424,10 @@ animation: zoomIn 9s linear infinite;
 
 /* Images */
 .gallery-scroll img{
-  width: 570px;
-  height: 370px;
+  width: 100%;              /* responsive */
+  max-width: 570px;        /* keeps desktop size */
+  height: auto;            /* maintain aspect ratio */
+  aspect-ratio: 570 / 370; /* keeps shape */
   object-fit: cover;
   border-radius: 12px;
   flex-shrink: 0;
