@@ -121,6 +121,9 @@ nav ul li a:hover {
   color: white;
   overflow: hidden;
   object-fit: cover;
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
 
 }
