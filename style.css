@@ -225,7 +225,8 @@ animation: zoomIn 9s linear infinite;
 }
 
 .btnn:hover{
-  transform: scale(2.5);
+  color: white;
+ background: rgba(160,194,179,0.5);
 }
 
 /*About Section*/
