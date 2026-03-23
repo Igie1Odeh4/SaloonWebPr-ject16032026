@@ -732,3 +732,34 @@ animation: zoomIn 9s linear infinite;
 
 
 }
+
+@media (max-width: 768px){
+  .gallery-scroll img{
+    max-width: 80%;
+  }
+
+  .scroll-btn{
+    font-size: 22px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px){
+  .gallery-scroll img{
+    max-width: 90%;
+  }
+
+  .scroll-btn{
+    font-size: 18px;
+    padding: 6px 10px;
+  }
+
+  .gallery-left{
+    left: 5px;
+  }
+
+  .gallery-right{
+    right: 5px;
+  }
+}
+
